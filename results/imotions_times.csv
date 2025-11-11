@@ -1,0 +1,90 @@
+,respondent,resp_id_old,subset,subset_old,survey_immediate_start,sns_filename,imotions_date,imotions_time
+0,1,5,1,Nandos_Menu_Current_Subset1_2,05/19/2025 1:13:53 PM,014_Resp_005.csv,19/05/2025,13:06:09.132 +02:00
+1,2,6,1,Nandos_Menu_Current_Subset1,05/19/2025 1:57:44 PM,003_Resp_006 (3).csv,19/05/2025,13:50:53.342 +02:00
+2,3,8,1,Nandos_Menu_Current_Subset1_2,05/19/2025 2:17:19 PM,013_Resp_008.csv,19/05/2025,14:05:23.160 +02:00
+3,4,10,1,Nandos_Menu_Current_Subset1,05/19/2025 2:58:44 PM,004_Resp_010 (3).csv,19/05/2025,14:53:22.627 +02:00
+4,5,39,2,Nandos_Menu_NewFunctional_Subset2_2,05/19/2025 3:10:27 PM,012_Resp_039.csv,19/05/2025,15:04:39.413 +02:00
+5,6,7,1,Nandos_Menu_Current_Subset1,05/19/2025 4:07:46 PM,005_Resp_007 (3).csv,19/05/2025,15:53:29.635 +02:00
+6,7,1,1,Nandos_Menu_Current_Subset1,05/19/2025 9:40:05 AM,001_Resp_001.csv,19/05/2025,09:34:34.905 +02:00
+7,8,2,1,Nandos_Menu_Current_Subset1,05/19/2025 9:44:06 AM,001_Resp_002 (3).csv,19/05/2025,09:34:43.716 +02:00
+8,9,3,1,Nandos_Menu_Current_Subset1,05/19/2025 10:19:02 AM,006_Resp_003 (3).csv,19/05/2025,10:11:11.347 +02:00
+9,10,32,2,Nandos_Menu_NewFunctional_Subset2,05/19/2025 10:48:53 AM,001_Resp_032.csv,19/05/2025,10:43:52.796 +02:00
+10,11,31,2,Nandos_Menu_NewFunctional_Subset2,05/19/2025 11:21:29 AM,002_Resp_031.csv,19/05/2025,11:15:35.324 +02:00
+11,12,4,1,Nandos_Menu_Current_Subset1,05/19/2025 11:51:59 AM,002_Resp_004 (3).csv,19/05/2025,11:42:18.994 +02:00
+12,13,12,1,Nandos_Menu_Current_Subset1_2 (1),05/20/2025 1:36:36 PM,001_Resp_012.csv,20/05/2025,13:30:31.567 +02:00
+13,14,37,2,Nandos_Menu_NewFunctional_Subset2_2,05/20/2025 2:30:50 PM,009_Resp_037.csv,20/05/2025,14:24:05.927 +02:00
+14,15,40,2,Nandos_Menu_NewFunctional_Subset2_2 (1),05/20/2025 2:38:16 PM,003_Resp_040.csv,20/05/2025,14:32:00.356 +02:00
+15,16,13,1,Nandos_Menu_Current_Subset1_2,05/20/2025 3:21:20 PM,011_Resp_013 .csv,20/05/2025,15:14:16.510 +02:00
+16,17,14,1,Nandos_Menu_Current_Subset1_2 (1),05/20/2025 3:34:50 PM,002_Resp_014.csv,20/05/2025,15:27:21.007 +02:00
+17,18,42,2,Nandos_Menu_NewFunctional_Subset2_2 (1),05/20/2025 4:26:15 PM,004_Resp_042.csv,20/05/2025,16:20:18.767 +02:00
+18,19,11,1,Nandos_Menu_Current_Subset1_2,05/20/2025 9:21:59 AM,012_Resp_011.csv,20/05/2025,09:12:15.545 +02:00
+19,20,33,2,Nandos_Menu_NewFunctional_Subset2_2,05/20/2025 10:20:54 AM,011_Resp_033.csv,20/05/2025,10:11:52.444 +02:00
+20,21,36,2,Nandos_Menu_NewFunctional_Subset2_2 (1),05/20/2025 10:38:52 AM,001_Resp_036.csv,20/05/2025,10:25:42.545 +02:00
+21,22,61,3,Nandos_Menu_NewUnique_Subset3_2,05/20/2025 11:14:26 AM,017_Resp_061.csv,20/05/2025,11:10:24.158 +02:00
+22,23,38,2,Nandos_Menu_NewFunctional_Subset2_2 (1),05/20/2025 11:30:49 AM,002_Resp_038.csv,20/05/2025,11:25:00.773 +02:00
+23,24,35,2,Nandos_Menu_NewFunctional_Subset2_2,05/20/2025 12:47:28 PM,010_Resp_035.csv,20/05/2025,12:40:50.513 +02:00
+24,25,18,1,Nandos_Menu_Current_Subset1_2 (1),05/21/2025 1:17:43 PM,004_Resp_018.csv,21/05/2025,13:09:23.668 +02:00
+25,26,20,1,Nandos_Menu_Current_Subset1_2 (1),05/21/2025 2:24:57 PM,005_Resp_020.csv,21/05/2025,14:17:28.102 +02:00
+26,27,69,3,Nandos_Menu_NewUnique_Subset3_2,05/21/2025 2:27:03 PM,013_Resp_069.csv,21/05/2025,14:09:56.780 +02:00
+27,28,66,3,Nandos_Menu_NewUnique_Subset3_2 (1),05/21/2025 3:14:11 PM,003_Resp_066.csv,21/05/2025,15:08:43.157 +02:00
+28,29,41,2,Nandos_Menu_NewFunctional_Subset2_2,05/21/2025 3:34:12 PM,008_Resp_041.csv,21/05/2025,15:25:56.727 +02:00
+29,30,71,3,Nandos_Menu_NewUnique_Subset3_2,05/21/2025 4:24:33 PM,012_Resp_071.csv,21/05/2025,16:18:19.210 +02:00
+30,31,63,3,Nandos_Menu_NewUnique_Subset3_2,05/21/2025 9:09:33 AM,016_Resp_063.csv,21/05/2025,09:02:11.768 +02:00
+31,32,16,1,Nandos_Menu_Current_Subset1_2 (1),05/21/2025 9:10:32 AM,003_Resp_016.csv,21/05/2025,09:04:31.256 +02:00
+32,33,65,3,Nandos_Menu_NewUnique_Subset3_2,05/21/2025 9:56:23 AM,015_Resp_065.csv,21/05/2025,09:47:26.556 +02:00
+33,34,62,3,Nandos_Menu_NewUnique_Subset3_2 (1),05/21/2025 10:22:22 AM,001_Resp_062.csv,21/05/2025,10:15:12.971 +02:00
+34,35,64,3,Nandos_Menu_NewUnique_Subset3_2 (1),05/21/2025 11:15:20 AM,002_Resp_064.csv,21/05/2025,11:08:22.162 +02:00
+35,36,67,3,Nandos_Menu_NewUnique_Subset3_2,05/21/2025 11:17:15 AM,014_Resp_067.csv,21/05/2025,11:07:24.494 +02:00
+36,37,17,1,Nandos_Menu_Current_Subset1_2,05/22/2025 1:11:44 PM,009_Resp_017.csv,22/05/2025,13:05:44.643 +02:00
+37,38,48,2,Nandos_Menu_NewFunctional_Subset2_2 (1),05/22/2025 1:20:53 PM,007_Resp_048.csv,22/05/2025,13:08:25.690 +02:00
+38,39,45,2,Nandos_Menu_NewFunctional_Subset2_2,05/22/2025 2:07:10 PM,006_Resp_045.csv,22/05/2025,14:00:01.614 +02:00
+39,40,68,3,Nandos_Menu_NewUnique_Subset3_2 (1),05/22/2025 2:22:04 PM,004_Resp_068.csv,22/05/2025,14:15:33.635 +02:00
+40,41,47,2,Nandos_Menu_NewFunctional_Subset2_2,05/22/2025 3:03:36 PM,005_Resp_047.csv,22/05/2025,14:57:49.789 +02:00
+41,42,75,3,Nandos_Menu_NewUnique_Subset3_2,05/22/2025 3:57:11 PM,010_Resp_075.csv,22/05/2025,15:45:02.818 +02:00
+42,43,44,2,Nandos_Menu_NewFunctional_Subset2_2 (1),05/22/2025 9:08:00 AM,005_Resp_044.csv,22/05/2025,09:03:18.376 +02:00
+43,44,43,2,Nandos_Menu_NewFunctional_Subset2_2,05/22/2025 9:10:43 AM,007_Resp_043.csv,22/05/2025,09:05:23.113 +02:00
+44,45,73,3,Nandos_Menu_NewUnique_Subset3_2,05/22/2025 10:14:32 AM,011_Resp_073.csv,22/05/2025,10:07:21.082 +02:00
+45,46,15,1,Nandos_Menu_Current_Subset1_2,05/22/2025 11:31:19 AM,010_Resp_015.csv,22/05/2025,11:22:48.307 +02:00
+46,47,46,2,Nandos_Menu_NewFunctional_Subset2_2 (1),05/22/2025 11:40:36 AM,006_Resp_046.csv,22/05/2025,11:29:21.418 +02:00
+47,48,49,2,Nandos_Menu_NewFunctional_Subset2_2,05/23/2025 1:07:51 PM,004_Resp_049.csv,23/05/2025,13:01:29.516 +02:00
+48,49,72,3,Nandos_Menu_NewUnique_Subset3_2 (1),05/23/2025 1:09:22 PM,005_Resp_072.csv,23/05/2025,13:01:32.503 +02:00
+49,50,25,1,Nandos_Menu_Current_Subset1_2,05/23/2025 3:07:42 PM,007_Resp_025.csv,23/05/2025,15:00:14.287 +02:00
+50,51,52,1,Nandos_Menu_Current_Subset1_2 (1),05/23/2025 3:08:52 PM,008_Resp_052.csv,23/05/2025,15:02:36.929 +02:00
+51,52,70,3,Nandos_Menu_NewUnique_Subset3_2 (1),05/23/2025 4:14:02 PM,006_Resp_070.csv,23/05/2025,16:07:51.479 +02:00
+52,53,77,3,Nandos_Menu_NewUnique_Subset3_2,05/23/2025 9:10:56 AM,009_Resp_077.csv,23/05/2025,09:01:58.412 +02:00
+53,55,26,1,Nandos_Menu_Current_Subset1_2 (1),05/23/2025 10:13:57 AM,007_Resp_026.csv,23/05/2025,10:08:00.031 +02:00
+54,56,21,1,Nandos_Menu_Current_Subset1_2,05/23/2025 11:23:53 AM,008_Resp_021.csv,23/05/2025,11:15:52.239 +02:00
+55,57,27,1,Nandos_Menu_Current_Subset1_2,05/26/2025 1:02:36 PM,006_Resp_027.csv,26/05/2025,12:55:38.532 +02:00
+56,58,76,3,Nandos_Menu_NewUnique_Subset3_2 (1),05/26/2025 1:10:48 PM,008_Resp_076.csv,26/05/2025,13:03:15.242 +02:00
+57,59,83,3,Nandos_Menu_NewUnique_Subset3_2,05/26/2025 1:58:10 PM,006_Resp_083.csv,26/05/2025,13:50:12.489 +02:00
+58,60,58,2,Nandos_Menu_NewFunctional_Subset2_2 (1),05/26/2025 2:46:11 PM,010_Resp_058.csv,26/05/2025,14:35:19.148 +02:00
+59,61,53,2,Nandos_Menu_NewFunctional_Subset2_2,05/26/2025 2:58:25 PM,002_Resp_053.csv,26/05/2025,14:51:19.033 +02:00
+60,62,28,1,Nandos_Menu_Current_Subset1_2 (1),05/26/2025 3:45:51 PM,009_Resp_028.csv,26/05/2025,15:36:26.296 +02:00
+61,63,85,3,Nandos_Menu_NewUnique_Subset3_2,05/26/2025 4:05:23 PM,005_Resp_085.csv,26/05/2025,15:57:03.904 +02:00
+62,64,50,2,Nandos_Menu_NewFunctional_Subset2_2 (1),05/26/2025 4:36:35 PM,011_Resp_050.csv,26/05/2025,16:30:09.142 +02:00
+63,65,79,3,Nandos_Menu_NewUnique_Subset3_2,05/26/2025 9:26:04 AM,008_Resp_079.csv,26/05/2025,09:13:33.846 +02:00
+64,66,74,3,Nandos_Menu_NewUnique_Subset3_2 (1),05/26/2025 9:51:22 AM,007_Resp_074.csv,26/05/2025,09:43:24.077 +02:00
+65,67,51,2,Nandos_Menu_NewFunctional_Subset2_2,05/26/2025 10:30:14 AM,003_Resp_051.csv,26/05/2025,10:18:40.716 +02:00
+66,68,54,2,Nandos_Menu_NewFunctional_Subset2_2 (1),05/26/2025 10:43:35 AM,008_Resp_054.csv,26/05/2025,10:38:32.327 +02:00
+67,69,56,2,Nandos_Menu_NewFunctional_Subset2_2 (1),05/26/2025 11:30:21 AM,009_Resp_056.csv,26/05/2025,11:22:04.054 +02:00
+68,70,81,3,Nandos_Menu_NewUnique_Subset3_2,05/26/2025 11:31:52 AM,007_Resp_081.csv,26/05/2025,11:19:01.829 +02:00
+69,71,89,3,Nandos_Menu_NewUnique_Subset3_2,05/27/2025 1:08:11 PM,003_Resp_089.csv,27/05/2025,12:58:17.404 +02:00
+70,72,64,2,Nandos_Menu_NewFunctional_Subset2_2 (1),05/27/2025 1:10:16 PM,014_Resp_064.csv,27/05/2025,13:02:17.152 +02:00
+71,73,9,1,Nandos_Menu_Current_Subset1_2,05/27/2025 2:09:54 PM,004_Resp_009.csv,27/05/2025,14:01:55.016 +02:00
+72,74,66,2,Nandos_Menu_NewFunctional_Subset2_2 (1),05/27/2025 2:31:05 PM,015_Resp_066.csv,27/05/2025,14:23:09.772 +02:00
+73,75,19,1,Nandos_Menu_Current_Subset1_2,05/27/2025 3:14:56 PM,003_Resp_019.csv,27/05/2025,15:08:47.659 +02:00
+74,76,82,3,Nandos_Menu_NewUnique_Subset3_2 (1),05/27/2025 4:45:09 PM,010_Resp_082.csv,27/05/2025,16:36:20.827 +02:00
+75,77,29,1,Nandos_Menu_Current_Subset1_2,05/27/2025 9:00:22 AM,005_Resp_029.csv,27/05/2025,08:53:13.075 +02:00
+76,78,60,2,Nandos_Menu_NewFunctional_Subset2_2 (1),05/27/2025 9:07:54 AM,012_Resp_060.csv,27/05/2025,09:01:43.649 +02:00
+77,79,55,2,Nandos_Menu_NewFunctional_Subset2_2,05/27/2025 10:00:30 AM,001_Resp_055.csv,27/05/2025,09:52:32.852 +02:00
+78,80,62,2,Nandos_Menu_NewFunctional_Subset2_2 (1),05/27/2025 10:22:15 AM,013_Resp_062.csv,27/05/2025,10:16:31.464 +02:00
+79,81,78,3,Nandos_Menu_NewUnique_Subset3_2 (1),05/27/2025 11:12:07 AM,009_Resp_078.csv,27/05/2025,11:03:47.108 +02:00
+80,82,22,1,Nandos_Menu_Current_Subset1_2,05/28/2025 9:19:24 AM,002_Resp_022.csv,28/05/2025,09:08:10.073 +02:00
+81,83,57,2,Nandos_Menu_NewFunctional_Subset2_2 (1),05/28/2025 9:47:05 AM,016_Resp_057.csv,28/05/2025,09:39:36.817 +02:00
+82,84,88,3,Nandos_Menu_NewUnique_Subset3_2,05/28/2025 10:17:14 AM,002_Resp_088.csv,28/05/2025,10:05:00.924 +02:00
+83,85,84,3,Nandos_Menu_NewUnique_Subset3_2 (1),05/28/2025 10:32:28 AM,011_Resp_084.csv,28/05/2025,10:26:04.718 +02:00
+84,86,90,3,Nandos_Menu_NewUnique_Subset3_2,05/28/2025 11:13:30 AM,001_Resp_090.csv,28/05/2025,11:06:18.350 +02:00
+85,87,86,3,Nandos_Menu_NewUnique_Subset3_2 (1),05/28/2025 11:21:26 AM,012_Resp_086.csv,28/05/2025,11:11:37.098 +02:00
+86,88,87,3,Nandos_Menu_NewUnique_Subset3_2,05/28/2025 12:07:04 PM,004_Resp_087.csv,28/05/2025,12:00:47.246 +02:00
+87,89,80,3,Nandos_Menu_NewUnique_Subset3_2 (1),05/28/2025 12:23:44 PM,013_Resp_080.csv,28/05/2025,12:14:58.613 +02:00
+88,90,30,1,Nandos_Menu_Current_Subset1_2,05/28/2025 12:54:30 PM,001_Resp_030.csv,28/05/2025,12:48:44.766 +02:00

@@ -1,0 +1,182 @@
+﻿#METADATA,,,,,,,,,,,,,,,
+#Channel identifier,"Info_Respondent_Name","Info_Respondent_Gender","Info_Respondent_Age","Info_Respondent_Group","Info_Interval_Type","Info_Interval_Label","Info_Interval_Start","Info_Interval_Duration","Info_Interval_ParentStimulus","Info_Interval_Comment","GSR_PDMetrics_SignalDuration","GSR_PDMetrics_HasPeaks","GSR_PDMetrics_PeakCount","GSR_PDMetrics_PeaksPerMinute","GSR_PDMetrics_AveragePeakAmplitude"
+#Group,Respondent Info,Respondent Info,Respondent Info,Respondent Info,Interval Info,Interval Info,Interval Info,Interval Info,Interval Info,Interval Info,GSR peak detection metrics,GSR peak detection metrics,GSR peak detection metrics,GSR peak detection metrics,GSR peak detection metrics
+#Unit,,,,,,,Milliseconds,Milliseconds,,,Milliseconds,,,,Microsiemens
+#Short unit,,,,,,,ms,ms,,,ms,,,,µS
+#Description,"Name of the respondent.","Gender of the respondent.","Age of the respondent.","Group of the respondent.","Type of the interval that the metrics refers to.","Name of the interval.","Start time of the interval (relative to recording start).","Duration of the interval.","Name of the parent.","Comment that was added to the interval.","Duration of the 'GSR Interpolated' signal, excluding the gaps that exceeded the selected gap interpolation length threshold.","Binary value, indicating whether the respondent had any peaks (1) or none (0) during this interval.","Count of peaks detected during this interval.","Average count of peaks detected per minute for this interval (i.e. the count of peaks detected during this interval, or 'Peak Count', divided by the interval duration, or 'Duration (ms)', times 60000).","Average amplitude of all peaks during this interval, for a given respondent (i.e. the difference between the maximum value of the 'GSR Interpolated' signal during the peak and its value at the onset)."
+#Device,,,,,,,,,,,Shimmer Shimmer3-3A15 2BF6 GSR,Shimmer Shimmer3-3A15 2BF6 GSR,Shimmer Shimmer3-3A15 2BF6 GSR,Shimmer Shimmer3-3A15 2BF6 GSR,Shimmer Shimmer3-3A15 2BF6 GSR
+#AlgorithmType,,,,,,,,,,,GSR Peak Detection,GSR Peak Detection,GSR Peak Detection,GSR Peak Detection,GSR Peak Detection
+#Flow Name,,,,,,,,,,,GSR Peak Detection,GSR Peak Detection,GSR Peak Detection,GSR Peak Detection,GSR Peak Detection
+#DATA,,,,,,,,,,,,,,,
+"Study Name","Respondent Name","Gender","Age","Group","Type","Label","Start (ms)","Duration (ms)","Parent Stimulus","Comment","Signal Duration","Has Peaks","Peak Count","Peaks Per Minute","Average Peak Amplitude"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp 024","MALE","33","Default","Stimulus","Slide8 Current1","243967","169608","","","169608","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp 024","MALE","33","Default","Stimulus","Slide13 Current2","448754","64252","","","64252","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp 024","MALE","33","Default","Stimulus","Slide22 Item1","882424","23220","","","23220","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp 024","MALE","33","Default","Stimulus","Slide24 Item2","906739","16800","","","16800","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp 024","MALE","33","Default","Stimulus","Slide26 Item3","924607","12529","","","12529","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp 024","MALE","33","Default","Stimulus","Slide28 Item4","938220","9075","","","9075","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp 024","MALE","33","Default","Stimulus","Slide30 Item5","948356","6770","","","6770","1","1","8.86","0.0107"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp 024","MALE","33","Default","Stimulus","Slide51 Stim6","1162777","5992","","","5992","1","1","10.01","0.0107"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp 024","MALE","33","Default","Stimulus","Slide63 Stim10","1170373","12011","","","12011","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp 024","MALE","33","Default","Stimulus","Slide36 Stim1","1184005","2995","","","2995","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp 024","MALE","33","Default","Stimulus","Slide54 Stim7","1188638","11999","","","11999","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp 024","MALE","33","Default","Stimulus","Slide60 Stim9","1202237","11995","","","11995","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp 024","MALE","33","Default","Stimulus","Slide42 Stim3","1215852","5989","","","5989","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp 024","MALE","33","Default","Stimulus","Slide45 Stim4","1223452","3000","","","3000","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp 024","MALE","33","Default","Stimulus","Slide66 Stim11","1228053","11991","","","11991","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp 024","MALE","33","Default","Stimulus","Slide57 Stim8","1241641","5997","","","5997","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp 024","MALE","33","Default","Stimulus","Slide48 Stim5","1249269","12008","","","12008","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp 024","MALE","33","Default","Stimulus","Slide39 Stim2","1262872","12005","","","12005","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp 024","MALE","33","Default","Stimulus","Slide69 Stim12","1276483","6000","","","6000","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_012","FEMALE","30","Default","Stimulus","Slide8 Current1","173883","88215","","","88215","1","2","1.36","0.0191"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_012","FEMALE","30","Default","Stimulus","Slide13 Current2","298379","55817","","","55817","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_012","FEMALE","30","Default","Stimulus","Slide22 Item1","582504","7451","","","7451","1","1","8.05","0.0333"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_012","FEMALE","30","Default","Stimulus","Slide24 Item2","591419","14113","","","14113","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_012","FEMALE","30","Default","Stimulus","Slide26 Item3","606993","57360","","","57360","1","3","3.14","0.013"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_012","FEMALE","30","Default","Stimulus","Slide28 Item4","665779","7300","","","7300","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_012","FEMALE","30","Default","Stimulus","Slide30 Item5","674579","4457","","","4457","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_012","FEMALE","30","Default","Stimulus","Slide63 Stim10","860303","11997","","","11997","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_012","FEMALE","30","Default","Stimulus","Slide66 Stim11","874750","11987","","","11987","1","1","5.01","0.1008"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_012","FEMALE","30","Default","Stimulus","Slide54 Stim7","888915","11997","","","11997","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_012","FEMALE","30","Default","Stimulus","Slide39 Stim2","903198","11996","","","11996","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_012","FEMALE","30","Default","Stimulus","Slide51 Stim6","917347","6009","","","6009","1","1","9.98","0.0093"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_012","FEMALE","30","Default","Stimulus","Slide60 Stim9","925706","12004","","","12004","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_012","FEMALE","30","Default","Stimulus","Slide42 Stim3","939913","5997","","","5997","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_012","FEMALE","30","Default","Stimulus","Slide45 Stim4","948162","2996","","","2996","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_012","FEMALE","30","Default","Stimulus","Slide69 Stim12","953333","6002","","","6002","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_012","FEMALE","30","Default","Stimulus","Slide48 Stim5","961545","11995","","","11995","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_012","FEMALE","30","Default","Stimulus","Slide36 Stim1","975877","3018","","","3018","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_012","FEMALE","30","Default","Stimulus","Slide57 Stim8","981143","6022","","","6022","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_014","MALE","42","Default","Stimulus","Slide8 Current1","248107","111364","","","111364","1","9","4.85","0.0399"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_014","MALE","42","Default","Stimulus","Slide13 Current2","396539","40653","","","40653","1","3","4.43","0.0323"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_014","MALE","42","Default","Stimulus","Slide22 Item1","697445","9451","","","9451","1","2","12.7","0.1106"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_014","MALE","42","Default","Stimulus","Slide24 Item2","708611","5461","","","5461","1","2","21.97","0.052"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_014","MALE","42","Default","Stimulus","Slide26 Item3","715829","50439","","","50439","1","9","10.71","0.1331"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_014","MALE","42","Default","Stimulus","Slide28 Item4","768091","5928","","","5928","1","2","20.24","0.1138"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_014","MALE","42","Default","Stimulus","Slide30 Item5","775845","9810","","","9810","1","3","18.35","0.0161"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_014","MALE","42","Default","Stimulus","Slide45 Stim4","1087289","2992","","","2992","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_014","MALE","42","Default","Stimulus","Slide57 Stim8","1093006","6003","","","6003","1","3","29.99","0.0441"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_014","MALE","42","Default","Stimulus","Slide36 Stim1","1101755","2995","","","2995","1","1","20.03","0.0133"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_014","MALE","42","Default","Stimulus","Slide66 Stim11","1107376","12008","","","12008","1","3","14.99","0.011"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_014","MALE","42","Default","Stimulus","Slide51 Stim6","1122098","5995","","","5995","1","2","20.02","0.0075"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_014","MALE","42","Default","Stimulus","Slide60 Stim9","1130869","11996","","","11996","1","3","15","0.0145"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_014","MALE","42","Default","Stimulus","Slide63 Stim10","1145702","12003","","","12003","1","1","5","1.0381"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_014","MALE","42","Default","Stimulus","Slide54 Stim7","1160376","12029","","","12029","1","2","9.98","0.0493"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_014","MALE","42","Default","Stimulus","Slide42 Stim3","1175167","6003","","","6003","1","1","10","0.0111"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_014","MALE","42","Default","Stimulus","Slide39 Stim2","1183850","11993","","","11993","1","2","10.01","0.0992"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_014","MALE","42","Default","Stimulus","Slide69 Stim12","1198549","5996","","","5996","1","1","10.01","0.0178"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_014","MALE","42","Default","Stimulus","Slide48 Stim5","1207265","12036","","","12036","1","5","24.92","0.0132"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_016","FEMALE","50","Default","Stimulus","Slide8 Current1","213855","81150","","","81150","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_016","FEMALE","50","Default","Stimulus","Slide13 Current2","330230","20409","","","20409","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_016","FEMALE","50","Default","Stimulus","Slide22 Item1","715057","28452","","","28452","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_016","FEMALE","50","Default","Stimulus","Slide24 Item2","744702","71055","","","71055","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_016","FEMALE","50","Default","Stimulus","Slide26 Item3","816836","74625","","","74625","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_016","FEMALE","50","Default","Stimulus","Slide28 Item4","892549","6573","","","6573","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_016","FEMALE","50","Default","Stimulus","Slide30 Item5","900181","4150","","","4150","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_016","FEMALE","50","Default","Stimulus","Slide42 Stim3","1177263","5993","","","5993","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_016","FEMALE","50","Default","Stimulus","Slide69 Stim12","1184881","5996","","","5996","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_016","FEMALE","50","Default","Stimulus","Slide51 Stim6","1192460","5997","","","5997","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_016","FEMALE","50","Default","Stimulus","Slide54 Stim7","1200063","11989","","","11989","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_016","FEMALE","50","Default","Stimulus","Slide57 Stim8","1213651","5994","","","5994","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_016","FEMALE","50","Default","Stimulus","Slide60 Stim9","1221243","11994","","","11994","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_016","FEMALE","50","Default","Stimulus","Slide36 Stim1","1234828","2986","","","2986","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_016","FEMALE","50","Default","Stimulus","Slide63 Stim10","1239644","12000","","","12000","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_016","FEMALE","50","Default","Stimulus","Slide48 Stim5","1253293","11992","","","11992","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_016","FEMALE","50","Default","Stimulus","Slide45 Stim4","1266868","3001","","","3001","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_016","FEMALE","50","Default","Stimulus","Slide39 Stim2","1271490","11998","","","11998","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_016","FEMALE","50","Default","Stimulus","Slide66 Stim11","1285107","11991","","","11991","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_018","MALE","24","Default","Stimulus","Slide8 Current1","209687","192252","","","192252","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_018","MALE","24","Default","Stimulus","Slide13 Current2","438439","50078","","","50078","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_018","MALE","24","Default","Stimulus","Slide22 Item1","746432","23878","","","23878","1","2","5.03","0.0855"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_018","MALE","24","Default","Stimulus","Slide24 Item2","771897","18326","","","18326","1","2","6.55","0.0961"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_018","MALE","24","Default","Stimulus","Slide26 Item3","791796","22277","","","22277","1","3","8.08","0.0312"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_018","MALE","24","Default","Stimulus","Slide28 Item4","815596","5437","","","5437","1","1","11.04","0.0528"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_018","MALE","24","Default","Stimulus","Slide30 Item5","822621","7693","","","7693","1","1","7.8","0.0293"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_018","MALE","24","Default","Stimulus","Slide63 Stim10","1091130","12002","","","12002","1","2","10","0.0309"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_018","MALE","24","Default","Stimulus","Slide42 Stim3","1105477","5989","","","5989","1","1","10.02","0.0506"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_018","MALE","24","Default","Stimulus","Slide66 Stim11","1113926","11990","","","11990","1","1","5","0.0213"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_018","MALE","24","Default","Stimulus","Slide60 Stim9","1128343","12011","","","12011","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_018","MALE","24","Default","Stimulus","Slide39 Stim2","1142782","11994","","","11994","1","1","5","0.0053"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_018","MALE","24","Default","Stimulus","Slide45 Stim4","1157142","2996","","","2996","1","1","20.02","0.0488"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_018","MALE","24","Default","Stimulus","Slide48 Stim5","1162523","11987","","","11987","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_018","MALE","24","Default","Stimulus","Slide69 Stim12","1176906","6013","","","6013","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_018","MALE","24","Default","Stimulus","Slide57 Stim8","1185253","5998","","","5998","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_018","MALE","24","Default","Stimulus","Slide36 Stim1","1193589","3002","","","3002","1","1","19.98","0.0053"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_018","MALE","24","Default","Stimulus","Slide51 Stim6","1199070","6000","","","6000","1","1","10","0.0195"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_018","MALE","24","Default","Stimulus","Slide54 Stim7","1207454","11996","","","11996","1","1","5","0.0155"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_020","MALE","36","Default","Stimulus","Slide8 Current1","201173","137213","","","137213","1","6","2.62","0.0195"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_020","MALE","36","Default","Stimulus","Slide13 Current2","375571","63116","","","63116","1","1","0.95","0.0138"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_020","MALE","36","Default","Stimulus","Slide22 Item1","654588","15311","","","15311","1","2","7.84","0.019"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_020","MALE","36","Default","Stimulus","Slide24 Item2","671719","9359","","","9359","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_020","MALE","36","Default","Stimulus","Slide26 Item3","682791","36202","","","36202","1","1","1.66","0.0322"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_020","MALE","36","Default","Stimulus","Slide28 Item4","720701","5501","","","5501","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_020","MALE","36","Default","Stimulus","Slide30 Item5","727917","8401","","","8401","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_020","MALE","36","Default","Stimulus","Slide36 Stim1","984670","3005","","","3005","1","1","19.96","0.0747"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_020","MALE","36","Default","Stimulus","Slide42 Stim3","990269","6024","","","6024","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_020","MALE","36","Default","Stimulus","Slide63 Stim10","998932","12013","","","12013","1","3","14.98","0.023"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_020","MALE","36","Default","Stimulus","Slide39 Stim2","1013598","11999","","","11999","1","3","15","0.084"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_020","MALE","36","Default","Stimulus","Slide48 Stim5","1028317","11997","","","11997","1","2","10","0.0403"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_020","MALE","36","Default","Stimulus","Slide51 Stim6","1043049","5997","","","5997","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_020","MALE","36","Default","Stimulus","Slide54 Stim7","1051958","12020","","","12020","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_020","MALE","36","Default","Stimulus","Slide60 Stim9","1066598","11994","","","11994","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_020","MALE","36","Default","Stimulus","Slide45 Stim4","1081283","3014","","","3014","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_020","MALE","36","Default","Stimulus","Slide69 Stim12","1087047","6001","","","6001","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_020","MALE","36","Default","Stimulus","Slide66 Stim11","1095677","11993","","","11993","1","2","10.01","0.0373"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_020","MALE","36","Default","Stimulus","Slide57 Stim8","1110378","6029","","","6029","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_026","MALE","34","Default","Stimulus","Slide8 Current1","236906","40364","","","40364","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_026","MALE","34","Default","Stimulus","Slide13 Current2","312421","35381","","","35381","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_026","MALE","34","Default","Stimulus","Slide22 Item1","647721","40496","","","40496","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_026","MALE","34","Default","Stimulus","Slide24 Item2","689280","47100","","","47100","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_026","MALE","34","Default","Stimulus","Slide26 Item3","737476","158331","","","158331","1","29","10.99","0.1398"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_026","MALE","34","Default","Stimulus","Slide28 Item4","896860","13108","","","13108","1","1","4.58","0.0546"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_026","MALE","34","Default","Stimulus","Slide30 Item5","911020","6172","","","6172","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_026","MALE","34","Default","Stimulus","Slide57 Stim8","1136958","5989","","","5989","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_026","MALE","34","Default","Stimulus","Slide42 Stim3","1144537","5992","","","5992","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_026","MALE","34","Default","Stimulus","Slide48 Stim5","1152151","12003","","","12003","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_026","MALE","34","Default","Stimulus","Slide54 Stim7","1165717","11995","","","11995","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_026","MALE","34","Default","Stimulus","Slide63 Stim10","1179293","12007","","","12007","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_026","MALE","34","Default","Stimulus","Slide45 Stim4","1192933","2998","","","2998","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_026","MALE","34","Default","Stimulus","Slide66 Stim11","1197656","11992","","","11992","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_026","MALE","34","Default","Stimulus","Slide36 Stim1","1211313","2990","","","2990","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_026","MALE","34","Default","Stimulus","Slide60 Stim9","1215947","11996","","","11996","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_026","MALE","34","Default","Stimulus","Slide51 Stim6","1229528","5994","","","5994","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_026","MALE","34","Default","Stimulus","Slide39 Stim2","1237167","11997","","","11997","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_026","MALE","34","Default","Stimulus","Slide69 Stim12","1250746","5995","","","5995","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_028","FEMALE","40","Default","Stimulus","Slide8 Current1","266990","180925","","","180925","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_028","FEMALE","40","Default","Stimulus","Slide13 Current2","485376","72750","","","72750","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_028","FEMALE","40","Default","Stimulus","Slide22 Item1","819387","10105","","","10105","1","1","5.94","0.0191"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_028","FEMALE","40","Default","Stimulus","Slide24 Item2","831556","18250","","","18250","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_028","FEMALE","40","Default","Stimulus","Slide26 Item3","851830","39847","","","39847","1","2","3.01","0.0286"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_028","FEMALE","40","Default","Stimulus","Slide28 Item4","893686","4723","","","4723","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_028","FEMALE","40","Default","Stimulus","Slide30 Item5","900469","7389","","","7389","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_028","FEMALE","40","Default","Stimulus","Slide60 Stim9","1243966","11995","","","11995","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_028","FEMALE","40","Default","Stimulus","Slide42 Stim3","1258919","6000","","","6000","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_028","FEMALE","40","Default","Stimulus","Slide39 Stim2","1267963","12036","","","12036","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_028","FEMALE","40","Default","Stimulus","Slide48 Stim5","1283097","11997","","","11997","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_028","FEMALE","40","Default","Stimulus","Slide66 Stim11","1298230","12048","","","12048","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_028","FEMALE","40","Default","Stimulus","Slide54 Stim7","1313210","12051","","","12051","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_028","FEMALE","40","Default","Stimulus","Slide63 Stim10","1328357","12036","","","12036","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_028","FEMALE","40","Default","Stimulus","Slide45 Stim4","1343443","3012","","","3012","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_028","FEMALE","40","Default","Stimulus","Slide51 Stim6","1349476","6016","","","6016","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_028","FEMALE","40","Default","Stimulus","Slide36 Stim1","1358424","3032","","","3032","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_028","FEMALE","40","Default","Stimulus","Slide57 Stim8","1364507","6049","","","6049","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_028","FEMALE","40","Default","Stimulus","Slide69 Stim12","1373557","5997","","","5997","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_052","MALE","33","Default","Stimulus","Slide8 Current1","197194","84742","","","84742","1","16","11.33","0.1513"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_052","MALE","33","Default","Stimulus","Slide13 Current2","317133","48889","","","48889","1","20","24.55","0.0681"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_052","MALE","33","Default","Stimulus","Slide22 Item1","606432","21494","","","21494","1","5","13.96","0.0592"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_052","MALE","33","Default","Stimulus","Slide24 Item2","629009","56610","","","56610","1","12","12.72","0.0494"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_052","MALE","33","Default","Stimulus","Slide26 Item3","686694","18896","","","18896","1","5","15.88","0.0082"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_052","MALE","33","Default","Stimulus","Slide28 Item4","706680","5733","","","5733","1","1","10.47","0.1072"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_052","MALE","33","Default","Stimulus","Slide30 Item5","713461","17046","","","17046","1","3","10.56","0.0579"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_052","MALE","33","Default","Stimulus","Slide36 Stim1","962929","2992","","","2992","1","1","20.05","0.1889"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_052","MALE","33","Default","Stimulus","Slide63 Stim10","967510","11991","","","11991","1","2","10.01","0.1429"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_052","MALE","33","Default","Stimulus","Slide51 Stim6","981108","5989","","","5989","1","1","10.02","0.0868"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_052","MALE","33","Default","Stimulus","Slide54 Stim7","988645","11997","","","11997","1","2","10","0.1353"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_052","MALE","33","Default","Stimulus","Slide57 Stim8","1002370","5991","","","5991","1","1","10.01","0.0204"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_052","MALE","33","Default","Stimulus","Slide60 Stim9","1009927","11995","","","11995","1","2","10","0.074"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_052","MALE","33","Default","Stimulus","Slide66 Stim11","1023524","11994","","","11994","1","2","10","0.1174"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_052","MALE","33","Default","Stimulus","Slide42 Stim3","1037105","5995","","","5995","0","0","0",NA
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_052","MALE","33","Default","Stimulus","Slide48 Stim5","1044724","11996","","","11996","1","4","20.01","0.1059"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_052","MALE","33","Default","Stimulus","Slide45 Stim4","1058323","2993","","","2993","1","2","40.09","0.0434"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_052","MALE","33","Default","Stimulus","Slide69 Stim12","1062891","6002","","","6002","1","1","10","0.0613"
+"Nandos_Menu_Current_Subset1_2 (1)","Resp_052","MALE","33","Default","Stimulus","Slide39 Stim2","1070473","12000","","","12000","1","4","20","0.0893"
