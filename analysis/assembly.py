@@ -1,3 +1,20 @@
+"""
+Assembly script for Nandos analysis project.
+This script processes sensor data, extracts features, and merges results.
+
+Functions:
+- get_specific_data: Extracts specific task responses from sensor data
+- get_slides: Extracts slide/stimuli information
+- get_times: Extracts and aligns timing information from iMotions and survey data
+- merge_data: Combines all data sources into final output files
+"""
+
+import os
+import sys
+
+# Configure path to find vendorized neurallib package
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(PROJECT_ROOT, "lib"))
 
 from neurallib.clean import *
 from scipy.ndimage import gaussian_filter1d
@@ -7,77 +24,98 @@ from functools import reduce
 client = '540_nan_copy'
 project = '540_nan_copy'
 
+# Define folder paths relative to project root
 results_folder = f"../results/{project}/"
-in_folder = f"../infiles/{project}/"
+in_folder = f"../data/infiles/{project}/"
 
-def get_specific_data(in_folder,results_folder):
 
-    # Get files
-    # Read info from metadata
-
-    # For each stim:
-    # in Data, find space
-    # find LBUTTONDOWN before space
-    # find current or most recent fixation
-    # get fixation count leading up to
-    # append per stim
-
+def get_specific_data(in_folder, results_folder):
+    """
+    Extract task-specific data from sensor files.
+    
+    This function processes iMotions sensor data to extract:
+    - Response times (RT) from stimulus onset to user response
+    - Selected AOI (Area of Interest) at time of response
+    - Fixation counts during stimulus viewing
+    - Accuracy metrics for data quality
+    
+    Args:
+        in_folder: Path to input data directory
+        results_folder: Path to output results directory
+    
+    Returns:
+        None (writes results to CSV file)
+    """
     task = 'specific'
     in_path = f"{in_folder}Sensors/"
     out_path = f"{results_folder}{task}/"
-    os.makedirs(out_path, exist_ok=True)   
-         
-    files = get_files(in_path)
-    #files = ['002_Resp_064.csv',]
-
+    os.makedirs(out_path, exist_ok=True)
     
-    #Extracting all raw data
+    # Get list of all sensor data files
+    files = get_files(in_path)
+    # Optional: Process specific files only
+    # files = ['002_Resp_064.csv',]
+    
+    # Store results for all participants
     results = []
-    ### FOR EACH PARTICIPANT
+    
+    # Process each participant file
     for f in files:
-        # try: 
-            path = f"{in_path}{f}"
-            df, metadata = read_imotions(path, metadata=['Respondent Name','Study name'])
-
-            result = {}
-            result['file']=f
-            try:
-                result['resp_id_old'] = int(metadata['Respondent Name'].split('_')[1])
-            except:
-                result['resp_id_old'] = np.nan
-            try:
-                result['subset_old'] = metadata['Study name']
-            except:
-                result['subset_old'] = np.nan
-
-            for stim,dfs in df.groupby('SourceStimuliName'): #For each ad, skip this as data should already be split by ad
-                # in Data, find space
-
-                accuracy = 0
-                mask = dfs['Data'].str.contains('Space', na=False)
+        path = f"{in_path}{f}"
+        # Read iMotions file and extract metadata
+        df, metadata = read_imotions(path, metadata=['Respondent Name', 'Study name'])
+        
+        # Initialize result dictionary for this participant
+        result = {}
+        result['file'] = f
+        
+        # Extract participant ID from metadata
+        try:
+            result['resp_id_old'] = int(metadata['Respondent Name'].split('_')[1])
+        except:
+            result['resp_id_old'] = np.nan
+        
+        # Extract study subset identifier
+        try:
+            result['subset_old'] = metadata['Study name']
+        except:
+            result['subset_old'] = np.nan
+        
+        # Process each stimulus shown to this participant
+        for stim, dfs in df.groupby('SourceStimuliName'):
+            # Initialize accuracy counter for quality control
+            accuracy = 0
+            
+            # Step 1: Find end of stimulus viewing (Space key press or Shift+Z)
+            mask = dfs['Data'].str.contains('Space', na=False)
+            if mask.any():
+                # Trim data to before Space key press
+                dfs = dfs.loc[:mask.idxmax()-1]
+                accuracy += 1
+            else:
+                # Alternative end marker: Shift+Z
+                mask = dfs['Data'].str.contains('Shift Z', na=False)
                 if mask.any():
                     dfs = dfs.loc[:mask.idxmax()-1]
                     accuracy += 1
                 else:
-                    mask = dfs['Data'].str.contains('Shift Z', na=False)
-                    if mask.any():
-                        dfs = dfs.loc[:mask.idxmax()-1]
-                        accuracy += 1
-                    else:
-                        print(f"### Could not find Space for {stim} for {result['resp_id_old']}")
+                    print(f"### Could not find Space for {stim} for {result['resp_id_old']}")
+            
+            # Step 2: Find last mouse click (response selection)
+            if accuracy == 1:
+                mask = dfs['Data'].str.contains('LBUTTONDOWN', na=False)
                 
-                if accuracy == 1:
-                    mask = dfs['Data'].str.contains('LBUTTONDOWN', na=False)
-
-                    if mask.any():                                # at least one match exists
-                        last_idx = mask[::-1].idxmax()            # index of the last True
-                        # ▸ rows up to *and including* the last 'space' row
-                        dfs  = dfs.loc[:last_idx]
-                        accuracy += 1
-                    else:
-                        print(f"### Could not find Click for {stim} for {result['resp_id_old']}")
-
-                    if accuracy == 2:
+                if mask.any():
+                    # Get index of last click
+                    last_idx = mask[::-1].idxmax()
+                    # Trim data up to and including last click
+                    dfs = dfs.loc[:last_idx]
+                    accuracy += 1
+                else:
+                    print(f"### Could not find Click for {stim} for {result['resp_id_old']}")
+                
+                # Step 3: Extract metrics if valid response found
+                if accuracy == 2:
                         start_time = dfs['Timestamp'].values[0]
                         end_time = dfs['Timestamp'].values[-1]
 
